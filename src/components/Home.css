@@ -12,7 +12,7 @@
 .mainContainer {
     margin-left: 7rem;
     padding: 1rem;
-    height: 1900px; /* Adjust height as needed */
+    height: 2100px; /* Adjust height as needed */
 }
 
 
@@ -408,9 +408,8 @@ color: #10142c;
 
 @media only screen and (min-width: 600px) {
     .rightside{
-        background: #000;
         width: 29%;
-        height: 60rem;
+        height: 70rem;
         margin-top: -69rem;
         margin-left: 47rem;
     }
@@ -437,7 +436,7 @@ color: #10142c;
     
     .mainContainer {
         margin-left: 0rem;
-        height: 2511px ;/* Adjust height as needed */
+        height: 2411px ;/* Adjust height as needed */
         padding: 1rem;
 
     }
@@ -564,7 +563,7 @@ color: #10142c;
     margin-right: 1.5rem; /* Adjust the right margin to create a gap between icons */
 }
 .rightside{
-    background: #613b3b;
+    background-color: var(--text-primary);
     width: 100%;
     height: 60rem;
 

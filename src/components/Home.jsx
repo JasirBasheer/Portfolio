@@ -12,6 +12,10 @@ import todolist from'./images/todolist.png';
 import { Link } from "react-router-dom";
 import { ThemeContext } from "../Theme";
 import Navbar from './Navbar';
+import Newsletter from './newsletter';
+import Music from './music';
+import Thanks from './thanks';
+import Checkout from './checkout';
 
 function Home() {
     const { theme, toggleTheme } = useContext(ThemeContext);
@@ -137,7 +141,9 @@ function Home() {
 
         </div>
         <div className="rightside">
-          <div className="newsletter">fasdfasdfasd</div>
+          <Newsletter/>
+          <Thanks/>
+          <Checkout/>
         </div>
     </div>
   )
