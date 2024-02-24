@@ -6,12 +6,13 @@
     color: var(--bg-primary);
     background-color: var(--text-primary);
     
+    
 }
 
 .mainContainer {
     margin-left: 7rem;
     padding: 1rem;
-    height: 1111px; /* Adjust height as needed */
+    height: 1900px; /* Adjust height as needed */
 }
 
 
@@ -19,6 +20,7 @@
 .nav-link svg{
     min-width: 1rem;
     margin: 0 2.4rem;
+    
 }
 
 .intro{
@@ -30,6 +32,7 @@
    border-radius: 1rem;
     height: 230px;
     width: 700px;
+    object-fit: cover;
 }
 .contant{
     margin-top: 1.5rem;
@@ -164,6 +167,235 @@ color: #10142c;
     
 
 }
+.achivements h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 540;
+}
+
+.achivementimags {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  
+    margin-bottom: 3.8rem; 
+
+}
+
+.achivementscontant {
+    position: relative;
+    width: 18rem;
+    height: auto;
+    margin: 10px; 
+    overflow: hidden; 
+    transform: rotate(2deg);
+    border-radius: 1rem;
+
+}
+.achivementscontant:hover {
+    position: relative;
+    width: 18rem;
+    height: auto;
+    margin: 10px; 
+    overflow: hidden; 
+    transform: rotate(0deg);
+    border-radius: 1rem;
+    transition: transform 0.4s ease;
+
+}
+.achivementscontant1{
+    position: relative;
+    width: 18rem;
+    height: auto;
+    margin: 10px; 
+    overflow: hidden; 
+    border-radius: 1rem;
+
+
+}
+.achivementscontant1:hover{
+    position: relative;
+    width: 18rem;
+    height: auto;
+    margin: 10px; 
+    overflow: hidden; 
+    border-radius: 1rem;
+    transform: rotate(1deg);
+    transition: transform 0.4s ease;
+
+
+
+}
+
+.achivementimag1,
+.achivementimag3 {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative; 
+
+}
+.achivementimag2 {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative; 
+}
+
+.achivementscontant::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+}
+.achivementscontant1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+}
+
+.achivementscontant p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    text-align: center;
+    color: white;
+    z-index: 2; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 540;
+}
+
+.achivementscontant1 p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    text-align: center;
+    color: white; 
+    z-index: 2; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 540;
+}
+
+
+.Latestprojects h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 540;
+
+}
+.Latestprojects h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 540;
+    font-size: 1rem;
+    margin-left: 1rem;
+
+}
+.Latestprojects p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 440;
+    font-size: 0.8rem;
+    margin-left: 1rem;
+    
+}
+
+.LatestProjectImgs{
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 3.8rem; 
+}
+
+.ProjectContent{
+    width: 18rem;
+    background: linear-gradient(170deg, var(--text-primary), #aeaebb3f);
+    min-height: 9rem;
+    margin: 10px; 
+    overflow: hidden; 
+    transform: rotate(2deg);
+    border-radius: 0.7rem;
+
+}
+.ProjectContent2{
+    width: 18rem;
+    background: linear-gradient(170deg, var(--text-primary), #aeaebb3f);
+    min-height: 9rem;
+    margin: 10px; 
+    overflow: hidden; 
+    transform: rotate(0deg);
+    border-radius: 0.7rem;
+
+}
+.LatestProjectImgs h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 440;
+    font-size: 0.8rem;
+}
+.latestprojecth4{
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #4863ffe7;
+
+
+}
+.ProjectContent svg{
+    width: 0.8rem;
+    margin-left: 15.5rem;
+    margin-top: 0.3rem;
+}
+.ProjectContent2 svg{
+    width: 0.8rem;
+    margin-left: 15.5rem;
+    margin-top: 0.3rem;
+}
+
+.projectimg1{
+    margin-top: 11px;
+    margin-left: 11px;
+    width: 2.4rem;
+    border-radius: 100%;
+
+}
+.ProjectContent:hover {
+    transform: rotate(0deg);
+    transition: transform 0.4s ease;
+
+}
+.ProjectContent2:hover {
+    transform: rotate(1deg);
+    transition: transform 0.4s ease;
+
+}
+
+.status{
+    width: 5rem;
+    height: 1rem;
+    margin-left: 11rem;
+    margin-right: 1rem;
+    background: #51c72d3b;
+    border-radius: 11px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+}
+.status h5{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 740;
+    font-size: 0.6rem;
+}
 
 
 
@@ -174,7 +406,16 @@ color: #10142c;
 
 
 
-
+@media only screen and (min-width: 600px) {
+    .rightside{
+        background: #000;
+        width: 29%;
+        height: 60rem;
+        margin-top: -69rem;
+        margin-left: 47rem;
+    }
+    
+}
 
 
 
@@ -193,9 +434,10 @@ color: #10142c;
 
 /* Small screens */
 @media only screen and (max-width: 600px) {
+    
     .mainContainer {
         margin-left: 0rem;
-        height: 2111px ;/* Adjust height as needed */
+        height: 2511px ;/* Adjust height as needed */
         padding: 1rem;
 
     }
@@ -221,14 +463,14 @@ color: #10142c;
 .whatido{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 640;
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-top: 11px;
 }
 .abouttme{
     margin-top: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 440;
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: #a7a9b1f5;
 }
 
@@ -258,7 +500,7 @@ color: #10142c;
     margin-top: 1rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 440;
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: #a7a9b1f5; 
 }
 .socialDiscription{
@@ -317,6 +559,15 @@ color: #10142c;
  border: 0;
  cursor: pointer;
  
+}
+.social-link:hover {
+    margin-right: 1.5rem; /* Adjust the right margin to create a gap between icons */
+}
+.rightside{
+    background: #613b3b;
+    width: 100%;
+    height: 60rem;
+
 }
 
 }

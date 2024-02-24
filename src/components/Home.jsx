@@ -2,6 +2,13 @@ import React from 'react'
 import { useContext } from "react";
 import './Home.css';
 import introImage from'./images/inroimage2.jpg';
+import feltaImage from'./images/fetla.png';
+import feltaImage2 from'./images/fetla2.png';
+import thinkerspace from'./images/thinkerspace.jpg';
+import styn from'./images/styn.jpg';
+import netflix from'./images/netflix.png';
+import thecoder from'./images/thecoder.png';
+import todolist from'./images/todolist.png';
 import { Link } from "react-router-dom";
 import { ThemeContext } from "../Theme";
 import Navbar from './Navbar';
@@ -55,8 +62,61 @@ function Home() {
                             <div className="achivements">
                                 <h2>Achievements</h2>
                                 <div className="achivementimags">
-                                <div className="achivementimag"><img src="" alt="" /></div>
-                                <div className="achivementimag"></div>
+                                  <div className="achivementscontant">
+                                    
+                                <Link><img className="achivementimag1" src={feltaImage} alt="" /></Link>
+                                <p>Winner #2 Hackero , fetlla</p>
+                                </div>
+                                <div className="achivementscontant1">
+
+                                <Link><img className="achivementimag2" src={thinkerspace} alt="" /></Link>
+                                <p>ThinkerSpace Member</p>
+                                </div>
+                                <div className="achivementscontant">
+
+                                <Link><img className="achivementimag3" src={feltaImage2} alt="" /></Link>
+                                <p>Fetlla Certified Hacker</p>
+                                </div>
+
+                                </div>
+                            </div>
+                            <div className="Latestprojects">
+                                <h2>Latest Projects</h2>
+                                <div className="LatestProjectImgs">
+                                  <div className="ProjectContent">
+                                    
+                                <Link to={"https://github.com/JasirBasheer/Styn"}><img className="projectimg1" src={styn} alt="" /></Link>
+                                <h3>Styn</h3>
+                                <p>A Clothing brand Sells vintage cloths using React.js+node.js, mongodb as database</p>
+                                <Link to={"https://github.com/JasirBasheer/Styn"}><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#89aff0" d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg></Link>
+
+                                </div>
+                                <div className="ProjectContent2">
+
+                                <Link to={"https://github.com/JasirBasheer/Netflix.github.io"}><img className="projectimg1" src={netflix} alt="" /></Link>
+                                <div className="status">
+                                <h5 >Open-source</h5></div>
+                                <h3>Netflix clone</h3>
+
+                                <p>literlly same like netfilx. builded using react.js + imdb api + firbase database</p>
+                                <Link to={"https://github.com/JasirBasheer/Netflix.github.io"}><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#89aff0" d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg></Link>
+
+                                </div>
+                                <div className="ProjectContent">
+
+                                <Link to={"https://github.com/JasirBasheer/thecoder"}><img className="projectimg1" src={thecoder} alt="" /></Link>
+                                <h3>The coder</h3>
+                                <p>A place you can code through online, builded using react.js</p>
+                                <Link to={"https://github.com/JasirBasheer/thecoder"}><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#89aff0" d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg></Link>
+                                </div>
+                                <div className="ProjectContent2">
+
+                                <Link to={"https://jasirbasheer.github.io/To-Do-List.github.io/"}><img className="projectimg1" src={todolist} alt="" /></Link>
+                                <h3>To do list</h3>
+                                <p>A place you can code through online, builded using react.js</p>
+                                <Link to={"https://jasirbasheer.github.io/To-Do-List.github.io/"}><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#89aff0" d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg></Link>
+                                </div>
+                              <h4>See a list of all my projects <Link className='latestprojecth4'>On my projects page</Link></h4>
                                 </div>
                             </div>
         
@@ -75,6 +135,9 @@ function Home() {
 
 
 
+        </div>
+        <div className="rightside">
+          <div className="newsletter">fasdfasdfasd</div>
         </div>
     </div>
   )
