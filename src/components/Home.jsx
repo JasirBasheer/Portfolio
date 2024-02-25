@@ -16,6 +16,7 @@ import Newsletter from './newsletter';
 import Music from './music';
 import Thanks from './thanks';
 import Checkout from './checkout';
+import Theme from './theme';
 
 function Home() {
     const { theme, toggleTheme } = useContext(ThemeContext);
@@ -26,12 +27,7 @@ function Home() {
         <Navbar/>
         <div className="mainContainer">
 
-            <div className="up-nav">
-              <div className="themeebtn">
-            <button className='themebtn' onClick={() => toggleTheme()}><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="#89aff0" d="M361.5 1.2c5 2.1 8.6 6.6 9.6 11.9L391 121l107.9 19.8c5.3 1 9.8 4.6 11.9 9.6s1.5 10.7-1.6 15.2L446.9 256l62.3 90.3c3.1 4.5 3.7 10.2 1.6 15.2s-6.6 8.6-11.9 9.6L391 391 371.1 498.9c-1 5.3-4.6 9.8-9.6 11.9s-10.7 1.5-15.2-1.6L256 446.9l-90.3 62.3c-4.5 3.1-10.2 3.7-15.2 1.6s-8.6-6.6-9.6-11.9L121 391 13.1 371.1c-5.3-1-9.8-4.6-11.9-9.6s-1.5-10.7 1.6-15.2L65.1 256 2.8 165.7c-3.1-4.5-3.7-10.2-1.6-15.2s6.6-8.6 11.9-9.6L121 121 140.9 13.1c1-5.3 4.6-9.8 9.6-11.9s10.7-1.5 15.2 1.6L256 65.1 346.3 2.8c4.5-3.1 10.2-3.7 15.2-1.6zM160 256a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zm224 0a128 128 0 1 0 -256 0 128 128 0 1 0 256 0z"/></svg></button>
-            </div>
-           <div className="guestbook"><button className='gustbookbtn'>Sign my guestbook</button></div>
-            </div>
+            <Theme/>
 
             <div className="intro">
              < img className='introImage' src={introImage} alt="mee" />
@@ -120,7 +116,15 @@ function Home() {
                                 <p>A place you can code through online, builded using react.js</p>
                                 <Link to={"https://jasirbasheer.github.io/To-Do-List.github.io/"}><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#89aff0" d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg></Link>
                                 </div>
-                              <h4>See a list of all my projects <Link className='latestprojecth4'>On my projects page</Link></h4>
+                                <div className="ProjectContent2">
+
+                                <Link to={"https://jasirbasheer.github.io/To-Do-List.github.io/"}><img className="projectimg1" src={todolist} alt="" /></Link>
+                                <h3>To do list</h3>
+                                <p>A place you can code through online, builded using react.js</p>
+                                <Link to={"https://jasirbasheer.github.io/To-Do-List.github.io/"}><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#89aff0" d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg></Link>
+                                </div>
+                                
+                              <h4>See a list of all my projects <Link className='latestprojecth4'>On my projects page.</Link></h4>
                                 </div>
                             </div>
         

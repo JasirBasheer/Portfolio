@@ -5,6 +5,8 @@ import Home from './components/Home';
 import About from './components/About';
 import ErrorPage from './components/error';
 import { ThemeContext } from "./Theme";
+import Guestbook from './components/guestbook';
+import Projects from './components/projects';
 
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
       <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/about" element={<About/>} />
+          <Route path="/projects" element={<Projects/>} />
+          <Route path="/guestbook" element={<Guestbook/>} />
           <Route path='*' element={< ErrorPage />} />
 
           </Routes>

@@ -4,9 +4,15 @@ import './About.css';
 
 function About() {
   return (
-    <div className='container'>
+    <div className='Aboutcondtainer'>
       <Navbar/>
-      <div className="mainnContainer"></div>
+      <div className="AboutminContainer">
+        <br />
+        <br /><br />
+        <br />
+         <h1>Hi. I'm Jasir @Jsr.wtf Basheer</h1>
+         <img src="" alt="" />
+      </div>
     </div>
   )
 }

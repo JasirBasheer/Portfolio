@@ -1,0 +1,215 @@
+.guestbookContainer{
+    color: var(--bg-primary);
+    background-color: var(--text-primary);
+}
+.guestbookMainContainer{
+    margin-left: 8rem;
+    padding: 1rem;
+    min-height: 111vh;
+}
+.comments{
+    width: 64%;
+    height: auto;
+    margin-top: 4rem;
+
+}
+.comments h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
+}
+.commentInpBtn {
+    margin-top: 1rem;
+}
+.commentInpBtn input{
+    width: 25rem;
+    height: 2rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: rgba(64, 64, 131, 0.459);
+    color: var(--bg-primary);
+
+
+}
+.siginBtn{
+    margin-left: 0.3rem;
+    width: 4rem;
+    height: 2rem;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+
+}
+
+.signoutBtn{
+    margin-left: 0.3rem;
+    width: 3rem;
+    height: 1rem;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+    font-size: 0.5rem;
+    margin-top: 0.4rem;
+    background-color: rgba(240, 248, 255, 0.062);
+    font-weight: 549;
+    color: var(--bg-primary);
+}
+.DispComments{
+    margin-top: 1.6rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 380;
+    color: var(--bg-primary);
+}
+.eachComment{
+    margin-top: 0.2rem;
+}
+
+
+.Commentss{
+    font-weight: 100;
+    font-size: 0.9rem;
+
+}
+.username{
+    color: rgba(55, 95, 141, 0.856);
+    font-weight: 560;
+}
+
+.signinGoogle{
+    margin-left: 0.3rem;
+    width: 8rem;
+    height: 2rem;
+    border-radius: 0.1rem;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+    background-color: rgba(110, 102, 102, 0.493);
+    color: var(--bg-primary);
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 600px) {
+    .guestBookRightSide{
+        width: 29%;
+        height: 111vh;
+        margin-top: -26rem;
+        margin-left: 47rem;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .guestbookMainContainer{
+        margin-left: 0rem;
+        padding: 1rem;
+        height: auto;
+    }
+    .comments{
+        width: 100%;
+        height: auto;
+        margin-top: 4rem;
+    }
+    .comments h2{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 550;
+        font-size: 1.7rem;
+    }
+    .commentInpBtn {
+        margin-top: 1rem;
+    }
+    .commentInpBtn input{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        width: 12rem;
+        height: 2rem;
+        border-radius: 1rem;
+        border: none;
+        background-color: rgba(64, 64, 131, 0.459);
+    
+    }
+    .siginBtn{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-left: 0.3rem;
+        width: 4rem;
+        height: 2rem;
+        border-radius: 1rem;
+        border: none;
+        cursor: pointer;
+        background-color: rgba(196, 219, 240, 0.411);
+        color: var(--text-primary);
+        font-weight: 734;
+    
+    }
+    
+    .signoutBtn{
+        margin-left: 0.3rem;
+        width: 3rem;
+        height: 1rem;
+        border-radius: 1rem;
+        border: none;
+        cursor: pointer;
+        font-size: 0.5rem;
+        margin-top: 0.7rem;
+        background-color: rgba(240, 248, 255, 0.062);
+        font-weight: 549;
+        color: var(--bg-primary);
+    }
+    .DispComments{
+        margin-top: 1.4rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 380;
+        color: var(--bg-primary);
+    }
+    .eachComment{
+        margin-top: 0.2rem;
+    }
+    
+    
+    .Commentss{
+        font-weight: 100;
+        font-size: 0.7rem;
+    
+    }
+    .username{
+        color: rgba(55, 95, 141, 0.856);
+        font-weight: 560;
+        font-size: 0.9rem;
+    }
+    .guestBookRightSide{
+        width: 100%;
+        height: 101vh;
+        margin-top: -15rem;
+    }
+}
