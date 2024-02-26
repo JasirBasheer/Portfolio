@@ -28,10 +28,10 @@ body::-webkit-scrollbar-thumb{
   --text-secondary-light: rgb(70, 70, 70);
   --text-secondary-dark: rgb(160, 160, 160);
 
-  --bg-primary-light: white;
+  --bg-primary-light: rgb(255, 255, 255);
   --bg-primary-dark: black;
 
-  --bg-secondary-light: rgb(212, 212, 212);
+  --bg-secondary-light: rgba(212, 212, 212, 0.733);
   --bg-secondary-dark: rgb(34, 34, 34);
 
   --bg-navbar-light: rgb(104, 104, 255);

@@ -89,8 +89,10 @@ function Guestbook() {
     return (
         <div className='guestbookContainer'>
             <Navbar />
+            <br />
+            <Theme/>
             <div className="guestbookMainContainer">
-                <Theme/>
+               
                 <div className="comments">
                     <h2>Sign my guestbook</h2>
                     {user ? (

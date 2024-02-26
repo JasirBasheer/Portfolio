@@ -1,0 +1,330 @@
+.resumeContainer{
+    color: var(--bg-primary);
+    background-color: var(--text-primary);
+}
+.resumeMainContainer{
+    margin-left: 8rem;
+    height: 211vh;
+    padding: 0.1rem;
+    width: 59%;
+}
+.educationPresent{
+    display: flex;
+    width: 100%;
+    height: auto;
+
+}
+.educationPresent img{
+    width: 3rem;
+    border-radius: 4rem;
+    padding: 1rem;
+
+
+}
+
+.resumeMainContainer h1{
+    margin-top: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 730;
+}
+.resumeMainContainer h2{
+    margin-top: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 630;
+}
+.otherrrs{
+    margin-top: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 630;
+    font-size: 1.5rem;
+}
+
+
+.educationPresent h2{
+    margin-top: 1.3rem;
+    font-size: 0.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+
+.educationPresent h3{
+    margin-top: 2rem;
+    margin-left: -5.4rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+
+}
+.educationPresent h4{
+    margin-top: 3.7rem;
+    margin-left: -11.7rem;
+    font-size: 0.8rem;
+    font-weight: 300;
+
+}
+.PresentEducationDesc{
+    margin-left: 5rem;
+}
+.PresentEducationDesc p{
+font-size: 0.8rem;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.schooling{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.schooling img{
+    width: 3rem;
+    border-radius: 4rem;
+    padding: 1rem;
+    height: 2.9rem;
+
+}
+
+
+
+.schooling h2{
+    margin-top: 1.3rem;
+    font-size: 0.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+
+.schooling h3{
+    margin-top: 2rem;
+    margin-left: -3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+
+}
+.schooling h4{
+    margin-top: 3.7rem;
+    margin-left: -5.3rem;
+    font-size: 0.9rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+
+}
+.schooling p{
+    margin-top: 5rem;
+    margin-left: -9.2rem;
+    font-size: 0.7rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+
+}
+
+
+
+.otherss{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+
+
+.otherss img{
+    width: 3rem;
+    border-radius: 4rem;
+    padding: 1rem;
+    height: 2.9rem;
+
+}
+
+
+
+.otherss h2{
+    margin-top: 1.3rem;
+    font-size: 0.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+
+.otherss h3{
+    margin-top: 2rem;
+    margin-left: -3.3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+
+}
+.otherss h4{
+    margin-top: 3.7rem;
+    margin-left: -21.4rem;
+    font-size: 0.6rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+
+}
+
+
+.others1{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+
+
+.others1 img{
+    width: 3rem;
+    border-radius: 4rem;
+    padding: 1rem;
+    height: 2.9rem;
+
+}
+
+
+
+.others1 h2{
+    margin-top: 1.3rem;
+    font-size: 0.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+
+.others1 h3{
+    margin-top: 2rem;
+    margin-left: -3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+
+}
+.others1 h4{
+    margin-top: 3.7rem;
+    margin-left: -25.76rem;
+    font-size: 0.6rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+
+
+}
+
+
+
+
+
+.others2{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+
+
+.others2 img{
+    width: 3rem;
+    border-radius: 4rem;
+    padding: 1rem;
+    height: 2.9rem;
+
+}
+
+
+
+.others2 h2{
+    margin-top: 1.3rem;
+    font-size: 0.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+
+.others2 h3{
+    margin-top: 2rem;
+    margin-left: -3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+
+}
+.others2 h4{
+    margin-top: 3.7rem;
+    margin-left: -22rem;
+    font-size: 0.6rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .resumeMainContainer{
+        margin-left: 0rem;
+        height: 311vh;
+        padding: 0rem;
+        width: 100%;
+    }
+
+
+
+
+    .others2 h3{
+        margin-top: 2rem;
+        margin-left: -3rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 400;
+        width: 15rem;
+    
+    }
+    .others2 h4{
+        margin-top: 5.2rem;
+        margin-left: -15rem;
+        font-size: 0.6rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 500;
+    
+    }
+    
+
+    .others1 h3{
+        margin-top: 2rem;
+        margin-left: -3rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 400;
+        width: 15rem;
+    
+    }
+    .others1 h4{
+      
+        font-size: 0.6rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 500;
+        margin-top: 5.4rem;
+        margin-left: -15rem;
+    
+    
+    }
+    
+    .otherss h3{
+        margin-top: 2rem;
+        margin-left: -3.3rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 400;
+           width: 15rem;
+    
+    }
+    .otherss h4{
+        margin-top: 5.4rem;
+        margin-left: -15rem;
+        font-size: 0.6rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 500;
+    
+    }
+    
+}
+

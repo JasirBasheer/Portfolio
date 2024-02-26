@@ -7,6 +7,7 @@ import ErrorPage from './components/error';
 import { ThemeContext } from "./Theme";
 import Guestbook from './components/guestbook';
 import Projects from './components/projects';
+import Resume from './components/Resume';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path="/about" element={<About/>} />
           <Route path="/projects" element={<Projects/>} />
           <Route path="/guestbook" element={<Guestbook/>} />
+          <Route path="/resume" element={<Resume/>} />
           <Route path='*' element={< ErrorPage />} />
 
           </Routes>
