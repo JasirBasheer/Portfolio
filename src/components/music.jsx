@@ -6,7 +6,7 @@ import music from './images/music1.jpg'
 function Music() {
   return (
     <div className='music'>
-        <Link className='musicLink' to={"https://open.spotify.com/playlist/4gX9v6eIDrSH6n2wFJsl2r?si=58b0053b90b147b3"}>
+        <Link className='musicLink' to={"https://open.spotify.com/playlist/11183ATAQo3rYkbxqqS99J"}>
         <div className="musicImgs">
             <div className="musiccontent">
                 <img className='music1' src={music} alt="" />

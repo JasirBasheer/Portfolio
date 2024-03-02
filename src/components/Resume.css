@@ -4,9 +4,9 @@
 }
 .resumeMainContainer{
     margin-left: 8rem;
-    height: 211vh;
+    height: 205vh;
     padding: 0.1rem;
-    width: 59%;
+    width: 56%;
 }
 .educationPresent{
     display: flex;
@@ -247,10 +247,117 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
 
 }
+.technicalSkills{
+height: auto;
+width: 100%;
+background: linear-gradient(170deg,rgba(111, 116, 121, 0.11),#aeaebb31);
+border-radius: 0.5rem;
+
+
+}
+.toolsiKnow{
+height: auto;
+width: 100%;
+background: linear-gradient(170deg,rgba(111, 116, 121, 0.11),#aeaebb3f);
+border-radius: 0.5rem;
+margin-top: 1rem;
+
+
+}
+.Languages{
+height: auto;
+width: 100%;
+background: linear-gradient(170deg,rgba(111, 116, 121, 0.11),#aeaebb3f);
+border-radius: 0.5rem;
+margin-top: 1rem;
+
+
+}
+
+.rightssiideresume .tscontainer {
+    display: flex; /* Add flex display */
+    align-items: center;
+    margin-top: 0.6rem;
+    margin-left: 1rem;
+}
+.rightssiideresume .tscontainerr {
+    display: flex; /* Add flex display */
+    align-items: center;
+    margin-top: 0.6rem;
+    margin-left: 2.5rem;
+}
+.tscontainer p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+.tscontainerr p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.rightssiideresume svg {
+    width: 1rem;
+    margin-right: 0.5rem; /* Add margin-right for some spacing */
+}
+.technicalSkills h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.titletechnical{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.1rem;
+    margin-left: 0.5rem;
+}
+
+.titletools h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.titletools{
+    margin-left: 0.5rem;
+}
 
 
 
 
+
+@media only screen and (min-width: 600px) {
+    .rightssiideresume{
+        width: 25%;
+        height: 50rem;
+        margin-top: -53rem;
+        margin-left: 47rem;
+    }
+    .resumeContainer{
+      
+        height: 65rem;
+    }
+   
+    
+}
+
+
+@media only screen and (min-width: 1700px) {
+    .rightssiideresume{
+        width: 25%;
+        height: 50rem;
+        margin-top: -73rem;
+        margin-left: 59rem;
+
+    }
+    .resumeContainer{
+      
+        height: 85rem;
+    }
+   
+  
+   
+    
+}
 
 
 
@@ -264,13 +371,21 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 @media only screen and (max-width: 600px) {
     .resumeMainContainer{
         margin-left: 0rem;
-        height: 311vh;
+        height: 204vh;
         padding: 0rem;
         width: 100%;
     }
 
+    .resumeContainer{
+        color: var(--bg-primary);
+        background-color: var(--text-primary);
+        height: 110rem;
+    }
 
-
+    .titlesssss{
+        margin-top: 3rem;
+        margin-left: 1rem;
+    }
 
     .others2 h3{
         margin-top: 2rem;
@@ -323,6 +438,16 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-size: 0.6rem;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-weight: 500;
+    
+    }
+
+
+    .rightssiideresume{
+        background-color: var(--text-primary);
+        width: 89%;
+        height: 38rem;
+        margin-top: -27rem;
+        margin-left: 1rem;
     
     }
     

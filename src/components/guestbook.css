@@ -111,9 +111,23 @@
 
 
 
+@media only screen and (min-width: 1400px) {
+    .guestBookRightSide{
+        width: 25%;
+        height: 50rem;
+        margin-top: -35rem;
+        margin-left: 55rem;
 
-
-
+    }
+    .ProjectContainer{
+      
+        height: 85rem;
+    }
+   
+  
+   
+    
+}
 
 
 

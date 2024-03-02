@@ -8,6 +8,7 @@ import { ThemeContext } from "./Theme";
 import Guestbook from './components/guestbook';
 import Projects from './components/projects';
 import Resume from './components/Resume';
+import ScrollToTop from './components/ScrollToTop';
 
 
 function App() {
@@ -15,18 +16,19 @@ function App() {
   return (
     <Router>
       <div className={`App ${theme}`}>
-      <Routes>
-          <Route path="/" element={<Home/>} />
-          <Route path="/about" element={<About/>} />
-          <Route path="/projects" element={<Projects/>} />
-          <Route path="/guestbook" element={<Guestbook/>} />
-          <Route path="/resume" element={<Resume/>} />
-          <Route path='*' element={< ErrorPage />} />
-
-          </Routes>
+        <ScrollToTop />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/guestbook" element={<Guestbook />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="*" element={<ErrorPage />} />
+        </Routes>
       </div>
     </Router>
   );
 }
 
 export default App;
+
